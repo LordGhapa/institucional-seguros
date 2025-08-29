@@ -8,7 +8,7 @@ import MobileMenu from "./mobileMenu";
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white/80 shadow-sm backdrop-blur-md">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
             <ShieldIcon className="text-brand-blue h-8 w-8" />

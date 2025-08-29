@@ -36,8 +36,8 @@ export default function MobileMenu() {
                 <span className="text-brand-blue-dark text-2xl font-bold">
                   PALAGOS
                 </span>
-                <p className="text-sm">
-                  os melhores seguros para voce e sua empresa
+                <p className="text-xs text-nowrap">
+                  Os Melhores Seguros para Voce e Sua Empresa
                 </p>
               </div>
             </Link>
