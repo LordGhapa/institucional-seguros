@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { Reveal } from "@/components/ui/reveal";
+import CTA from "@/components/CTA";
 
 export const metadata: Metadata = {
   title: "Palagos Seguros Consultoria e Corretora",
@@ -16,12 +18,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-    
       <body>
         <Header />
         {children}
-        {/* <Footer /> */}
-
+        <Reveal>
+          <CTA />
+        </Reveal>
+        <Footer />
       </body>
     </html>
   );

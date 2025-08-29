@@ -1,5 +1,5 @@
 import Image from "next/image";
-import CountUp from "./ui/CountUp";
+import CountUp from "../../components/ui/CountUp";
 import Link from "next/link";
 
 const Hero: React.FC = () => {
@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
           <Link
             href="https://wa.me/5511995303261"
             target="_blank"
-            className="bg-brand-green w-full transform rounded-lg px-8 py-4 text-lg font-bold text-white capitalize shadow-lg transition-transform hover:scale-105 hover:bg-green-600 sm:w-auto"
+            className="bg-brand-green w-full transform rounded-lg px-8 py-4 text-lg font-bold text-white capitalize shadow-lg transition-all duration-300 hover:scale-105 hover:bg-green-600 sm:w-auto"
           >
             Solicite uma Cotação
           </Link>

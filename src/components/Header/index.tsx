@@ -22,7 +22,7 @@ export default function Header() {
               <Link
                 key={link.name}
                 href={link.href}
-                className="hover:text-brand-blue font-medium text-gray-600 transition-colors"
+                className="hover:text-brand-blue font-medium text-gray-600 underline-offset-4 transition-colors hover:underline"
               >
                 {link.name}
               </Link>

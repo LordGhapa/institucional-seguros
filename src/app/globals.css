@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
@@ -11,6 +11,7 @@
   --color-brand-green-dark: oklch(0.529 0.14 153.5);
   --color-brand-light-green: oklch(0.9896 0.02 150.3);
   --color-brand-light-blue: oklch(0.975 0.02 260);
+  --breakpoint-xs: 425px;
 }
 
 @theme inline {

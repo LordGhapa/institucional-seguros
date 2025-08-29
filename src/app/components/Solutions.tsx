@@ -1,6 +1,6 @@
 "use client";
 import SolutionCard from "./SolutionCard";
-import { OfficeBuildingIcon, UserGroupIcon } from "./ui/icons";
+import { OfficeBuildingIcon, UserGroupIcon } from "../../components/ui/icons";
 
 export default function Solutions() {
   const personalFeatures = [
@@ -46,8 +46,8 @@ export default function Solutions() {
             buttonHref="/pessoais"
           />
           <SolutionCard
-            bgColor="bg-brand-light-green"
-            icon={<OfficeBuildingIcon />}
+            bgColor="bg-brand-light-green "
+            icon={<OfficeBuildingIcon className="text-white" />}
             title="Para sua Empresa"
             subtitle="Pessoa Jurídica"
             description="Mantenha seu negócio protegido e seus colaboradores seguros com nossas soluções corporativas. Investimento estratégico em proteção e produtividade."

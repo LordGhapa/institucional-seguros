@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CheckIcon } from "./ui/icons";
+import { CheckIcon } from "../../components/ui/icons";
 
 interface SolutionCardProps {
   bgColor: string;
@@ -26,11 +26,11 @@ export default function SolutionCard({
 }: SolutionCardProps) {
   return (
     <div
-      className={`${bgColor} transform rounded-xl p-8 shadow-lg transition-transform duration-300 hover:-translate-y-2`}
+      className={`${bgColor} transform rounded-xl p-8 shadow-lg transition-all duration-300 hover:-translate-y-2`}
     >
       <div className="flex items-center space-x-4">
         <div
-          className={`hidden rounded-full p-3 min-[425px]:block ${buttonColor === "bg-brand-blue" ? "bg-blue-500" : "bg-green-500"}`}
+          className={`xs:block hidden rounded-full p-3 ${buttonColor === "bg-brand-blue" ? "bg-blue-500" : "bg-green-500"}`}
         >
           {icon}
         </div>
@@ -53,7 +53,7 @@ export default function SolutionCard({
       <div className="mt-8">
         <Link
           href={buttonHref}
-          className={`inline-block w-full text-center ${buttonColor} rounded-lg px-6 py-3 text-lg font-bold text-white transition-opacity hover:opacity-90`}
+          className={`inline-block w-full text-center ${buttonColor} rounded-lg px-6 py-3 text-lg font-bold text-white transition-all duration-300 hover:opacity-90`}
         >
           {buttonText}
         </Link>
