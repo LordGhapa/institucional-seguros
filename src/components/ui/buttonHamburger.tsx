@@ -1,20 +1,24 @@
-'use client'
-import classNames from 'classnames'
-import { useState } from 'react'
+"use client";
+import classNames from "classnames";
 
-export default function ButtonHamburger() {
-  const [opened, setOpened] = useState(false)
-
+interface ButtonHamburgerProps {
+  isOpen: boolean;
+  setIsOpen: (isOpen: boolean) => void;
+}
+export default function ButtonHamburger({
+  isOpen,
+  setIsOpen,
+}: ButtonHamburgerProps) {
   return (
     <div
-      onClick={() => setOpened(!opened)}
-      className={classNames(`tham mt-5 tham-e-squeeze tham-w-8`, {
-        'tham-active': opened
+      onClick={() => setIsOpen(!isOpen)}
+      className={classNames(`tham tham-e-squeeze tham-w-8`, {
+        "tham-active": isOpen,
       })}
     >
       <div className="tham-box">
         <div className="tham-inner" />
       </div>
     </div>
-  )
+  );
 }
