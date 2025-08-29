@@ -33,8 +33,8 @@ export default function MobileMenu() {
             <Link href="/" className="flex gap-1">
               <ShieldIcon className="text-brand-blue h-8 w-8" />
               <div>
-                <span className="text-brand-blue-dark text-2xl font-bold">
-                  PALAGOS
+                <span className="text-brand-blue-dark uppercase text-2xl font-bold">
+                  pagalos
                 </span>
                 <p className="text-xs text-nowrap">
                   Os Melhores Seguros para Voce e Sua Empresa

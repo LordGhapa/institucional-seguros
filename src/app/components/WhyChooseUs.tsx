@@ -54,7 +54,7 @@ export default function WhyChooseUs() {
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-brand-blue-dark xs:text-3xl text-2xl font-bold md:text-4xl">
-            Por que Escolher a Palagos?
+            Por que Escolher a Pagalos?
           </h2>
           <p className="mt-4 text-lg text-gray-600">
             Experiência, confiança e resultados comprovados.

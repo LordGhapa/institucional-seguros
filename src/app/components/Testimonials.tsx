@@ -3,7 +3,7 @@ import TestimonialCard from "./TestimonialCard";
 const testimonialsData = [
   {
     quote:
-      "A Palagos oferece o melhor custo-benefício em seguros corporativos. Nossa equipe está muito satisfeita com o plano de saúde.",
+      "A  pagalos oferece o melhor custo-benefício em seguros corporativos. Nossa equipe está muito satisfeita com o plano de saúde.",
     name: "Maria Silva",
     title: "Diretora de RH",
     company: "TechCorp Ltda",

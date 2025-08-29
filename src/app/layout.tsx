@@ -6,7 +6,7 @@ import { Reveal } from "@/components/ui/reveal";
 import CTA from "@/components/CTA";
 
 export const metadata: Metadata = {
-  title: "Palagos Seguros Consultoria e Corretora",
+  title: " pagalos Seguros Consultoria e Corretora",
   description:
     "Os Melhores Planos de Saúde e Seguros para sua Empresa, Você e sua Família",
 };

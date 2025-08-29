@@ -10,7 +10,7 @@ import Link from "next/link";
 import { ShieldIcon } from "./ui/icons";
 
 const companyInfo = {
-  name: "PALAGOS",
+  name: "PAGALOS",
   description:
     "Especialistas em seguros empresariais com mais de 15 anos de experiência. Protegemos empresas de todos os tamanhos com soluções personalizadas e atendimento de excelência.",
   cnpj: "00.000.000/0001-00",
@@ -23,8 +23,8 @@ const contactInfo = {
   personTitle: "Diretor Comercial",
   phone: "(11) 99530-3261",
   phoneHref: "tel:11995303261",
-  email: "joao@palagos.com.br",
-  emailHref: "mailto:joao@palagos.com.br",
+  email: "joao@ pagalos.com.br",
+  emailHref: "mailto:joao@ pagalos.com.br",
   address: "Rua DOS CORNOS Jordão, 25\nIpiranga - São Paulo - SP",
   // address: "Rua Brigadeiro Jordão, 25\nIpiranga - São Paulo - SP",
 };
@@ -37,7 +37,7 @@ const navLinks = {
     { href: "/", label: "Outros Seguros" },
   ],
   company: [
-    { href: "/sobre-nos", label: "Sobre a Palagos" },
+    { href: "/sobre-nos", label: "Sobre a  pagalos" },
     { href: "/politica-de-privacidade", label: "Política de Privacidade" },
     { href: "/termos-de-uso", label: "Termos de Uso" },
     { href: "#contato", label: "Fale Conosco" },

@@ -12,8 +12,8 @@ export default function Header() {
         <div className="flex h-20 items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
             <ShieldIcon className="text-brand-blue h-8 w-8" />
-            <span className="text-brand-blue-dark text-2xl font-bold">
-              PALAGOS
+            <span className="text-brand-blue-dark uppercase text-2xl font-bold">
+              pagalos
             </span>
           </Link>
 
